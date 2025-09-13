@@ -34,7 +34,7 @@ a {
 .center {
   height: auto;
   margin: auto;
-  top: auto; left: 0; bottom: auto; right: 0;
+  top: 40px; left: 0; bottom: auto; right: 0;
 }
 
 img {
@@ -43,7 +43,7 @@ img {
 
 @media (min-width:320px) {
   .center {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -229,7 +229,7 @@ img {
 .main-crt::after {
   content: " ";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -243,14 +243,14 @@ img {
 .main-crt::before {
   content: " ";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   z-index: 2;
-  background-size: 100% 2px, 3px 100%;
+  background-size: auto 2px, 3px auto;
   pointer-events: none;
 }
 .crt {
