@@ -43,13 +43,13 @@ img {
 
 @media (min-width:320px) {
   .center {
-    width: 80%;
+    width: 90%;
   }
 }
 
 @media (min-width:961px) {
   .center {
-    width: 70%;
+    width: 75%;
   }
 }
 
