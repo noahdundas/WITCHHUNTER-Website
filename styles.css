@@ -37,6 +37,10 @@ a {
   top: auto; left: 0; bottom: auto; right: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media (min-width:320px) {
   .center {
     width: 80%;
