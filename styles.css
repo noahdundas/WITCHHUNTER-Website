@@ -1,5 +1,11 @@
-body {
+html {
+  margin: 0;
+  height: 100%;
   background-color: #121212;
+  background-image: url("WitchhunterPageBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 p, h1, h2, h3{
@@ -19,7 +25,6 @@ h1 {
 
 h2 {
   font-size: 50px;
-  color: yellow;
 }
 
 h3 {
@@ -39,6 +44,10 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.logo {
+  margin-top: 200px;
 }
 
 @media (min-width:320px) {
