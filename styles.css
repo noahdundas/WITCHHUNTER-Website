@@ -28,8 +28,10 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 300;
+  margin-top: 32px;
+  margin-bottom: 12px;
 }
 
 a {
@@ -52,16 +54,12 @@ img {
 }
 
 .logo {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 @media (min-width:320px) {
   .center {
     width: 95%;
-  }
-
-  .logo {
-    margin-top: 50px;
   }
 
   h2 {
@@ -74,26 +72,29 @@ img {
     width: 75%;
   }
 
-  .logo {
-    margin-top: 100px;
-  }
-
   h2 {
     font-size: 40px;
   }
 }
 
-@media (min-width:1980px) {
+@media (min-width:1900px) {
   .center {
     width: 50%;
   }
 
-  .logo {
-    margin-top: 200px;
-  }
-
   h2 {
     font-size: 50px;
+  }
+
+  .logo {
+    margin-top: 150px;
+  }
+
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }
 
@@ -126,14 +127,6 @@ img {
   margin: 0 auto;
 }
 
-.bluesky {
-  color: #1185fe;
-}
-
-.itch {
-  color: #fa5c5c;
-}
-
 @keyframes flicker {
   0% {
     opacity: 0.27861;
@@ -145,28 +138,28 @@ img {
     opacity: 0.23604;
   }
   15% {
-    opacity: 0.90626;
+    opacity: 0.50626;
   }
   20% {
     opacity: 0.18128;
   }
   25% {
-    opacity: 0.83891;
+    opacity: 0.43891;
   }
   30% {
-    opacity: 0.65583;
+    opacity: 0.35583;
   }
   35% {
-    opacity: 0.67807;
+    opacity: 0.37807;
   }
   40% {
     opacity: 0.26559;
   }
   45% {
-    opacity: 0.84693;
+    opacity: 0.44693;
   }
   50% {
-    opacity: 0.96019;
+    opacity: 0.56019;
   }
   55% {
     opacity: 0.08594;
@@ -175,22 +168,22 @@ img {
     opacity: 0.20313;
   }
   65% {
-    opacity: 0.71988;
+    opacity: 0.41988;
   }
   70% {
-    opacity: 0.53455;
+    opacity: 0.23455;
   }
   75% {
     opacity: 0.37288;
   }
   80% {
-    opacity: 0.71428;
+    opacity: 0.41428;
   }
   85% {
-    opacity: 0.70419;
+    opacity: 0.40419;
   }
   90% {
-    opacity: 0.7003;
+    opacity: 0.4003;
   }
   95% {
     opacity: 0.36108;
